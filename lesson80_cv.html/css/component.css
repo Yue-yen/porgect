@@ -1,0 +1,37 @@
+/*----------------*/
+/* component */
+/*----------------*/
+
+/*parallax graphic*/
+[class^="graphic_"]{
+	position: absolute;
+}
+@media(max-width: 768px){
+	[class^="graphic_"]{
+		transform: scale(0.5);
+	}
+}
+.graphic_001{
+	top:20%;
+	right:5%;
+}
+.graphic_002{
+	top:20%;
+	left:5%;
+}
+.graphic_002-5{
+	top:60%;
+	right:5%;
+}
+.graphic_003{
+	top:0%;
+	left:5%;
+}
+.graphic_004{
+	top:0%;
+	right:0%;
+}
+.graphic_005{
+	top:0%;
+	left:5%;
+}
